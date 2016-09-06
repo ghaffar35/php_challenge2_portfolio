@@ -1,0 +1,60 @@
+/*color: #24890D;*/
+
+* {
+	font-family: Lato;
+}
+
+.navtopfix {
+	background-color: black;
+	padding: 0px;
+	margin: 0;
+}
+
+.navtopfix a {
+	color: white!important;
+}
+
+.Home {
+	color: #24890D;
+}
+
+.search {
+	background-color: #24890D;
+}
+
+.Home:hover {
+	background-color: #24890D;
+	color: white;
+}
+
+.navtopfix li:hover {
+	background-color: #24890D;
+}
+
+.search li:hover {
+	background-color: #41A62A;
+}
+
+.image {
+	padding: 50px;
+}
+
+.img {
+	padding: 0!important;
+}
+
+.image img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1
+}
+
+.textimg {
+	border: 3px solid black;
+	height: 150px;
+	margin-top: 180px;
+	position: relative;
+}
+

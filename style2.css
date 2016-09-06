@@ -1,0 +1,203 @@
+* {
+	font-family: "Open Sans";
+}
+
+#myNavbar a:hover
+{
+   background-color: #E5A227 ;
+   color: white;
+}
+
+
+.collapse {
+	color: black;
+}
+
+/*1ère partie*/
+.photo1 {
+	background-image: url(front-end.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin-top: 50px;
+
+}
+
+.texte1 {
+	margin :0 auto;
+	margin-top: 100px;
+	height: 700px;
+	text-align: center;
+	color: black;	
+}
+
+.trait1{
+	height: 5px;
+	width: 80px;
+	background-color: #0a73b8;
+	border :none;
+}
+
+h1{
+	font-weight: bold;
+}
+
+p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family:"Merriweather";
+}
+.buttonO{
+	background-color: #E5A227;
+	color: white;
+	margin-top: 350px !important;
+	border:none;
+	border-radius:25px;
+	width:160px;
+}
+
+	/*body{
+margin: 0;
+padding: 0;
+}*/
+
+body{
+margin: 0;
+padding: 0;
+}
+
+#competences{
+padding-top: 20px;
+padding-bottom: 50px;	
+background-color:#F3F3F3;
+}
+
+.comp{
+margin-bottom: 50px;	
+	
+}
+
+h3{
+margin-top: 0px;		
+}
+
+/*animation bounce*/
+#competences i {
+color: #f05f40;	
+	-webkit-animation-name: bounceIn; 
+    -webkit-animation-duration: 5s; 
+    animation-name: bounceIn;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes bounceIn {
+    from {color: black;}
+    to {color: #f05f40;}
+}
+
+@keyframes bounceIn {
+    from {color:black;}
+    to {color: #f05f40;}
+}
+
+/*Animation partie projet*/
+
+
+.te-perspective{ 
+	-webkit-perspective: 1000;
+}
+.te-transition,
+.te-cover{
+	display: block;
+	width: 329px;
+	height: 425px;
+	top: 0px;
+	left: 0px;
+	
+}
+.te-transition,
+.te-cover.te-hide,
+.te-images{ display: none; }
+.te-transition.te-show { display: block; }
+.te-back,
+.te-front{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.te-front{ z-index: 2; }
+.te-back{
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+}
+
+.te-rotation4.te-show .te-front,
+.te-rotation4.te-show .te-back{
+	-webkit-transform-origin: 0% 50%;
+}
+.te-rotation4.te-show .te-front{
+	-webkit-animation: rotationFront4 0.8s linear;
+}
+.te-rotation4.te-show .te-back {
+	-webkit-animation: rotationBack4 0.8s ease-in-out;
+}
+@-webkit-keyframes rotationFront4{
+	0% { -webkit-transform: rotate3d(0,1,0,0); opacity: 1; -webkit-animation-timing-function: ease-in;}
+	30% { -webkit-transform: rotate3d(0,1,0,-90deg); opacity: 0.5; -webkit-animation-timing-function: ease-out;}
+	100% { -webkit-transform: rotate3d(0,1,0,-180deg); opacity: 0; }
+}
+@-webkit-keyframes rotationBack4{
+	0% { opacity: 0; rotate3d(0,1,0,90deg); }
+	30% { -webkit-transform: rotate3d(0,1,0,90deg); opacity: 0; }
+	60% { -webkit-transform: rotate3d(0,1,0,-13deg); opacity: 1; }
+	70% { -webkit-transform: rotate3d(0,1,0,8deg); opacity: 1; }
+	80% { -webkit-transform: rotate3d(0,1,0,0deg); opacity: 1; }
+	95% { -webkit-transform: rotate3d(0,1,0,3deg); opacity: 1; }
+	100% { -webkit-transform: rotate3d(0,1,0,0deg); opacity: 1; }
+
+/*Partie CV*/
+
+.jumbotron{
+background-color: #FFFFFF;
+width: 100%;		
+}
+
+/*bouton jumbotron*/
+.btn{ 
+	background-color: #F2F2F2;
+	border:none;
+	padding: 17px 30px 17px 30px;
+	text-align: center;
+	display:inline-block;
+	cursor: pointer;
+	border-radius: 50px;
+	font-size:15px;
+	margin-top: 15px;
+}
+
+.btn:hover {
+	background-color:#E5A227;
+}
+
+.btn-info{
+color: black;	
+}
+
+.mail{
+	color: #f05f40;
+}
+
+.trait{
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    background-color: #f05f40;
+    margin-bottom: 40px;
+}
+
+.contact {
+margin-top: 200px!important;	
+}
+
