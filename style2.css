@@ -103,7 +103,7 @@ margin-top: 0px;
 }
 
 /*animation bounce*/
-#competences i {
+i {
 color: #8C979B;	
 	-webkit-animation-name: bounceIn; 
     -webkit-animation-duration: 5s; 
