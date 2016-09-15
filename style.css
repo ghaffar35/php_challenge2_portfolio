@@ -95,8 +95,8 @@ font-family: 'Fjalla One', sans-serif;
 	position: absolute;
 	width: 282px;
 	height: 273px;
-	left: 50%;
-	top: 50%;
+	left: 10%;
+	top: 10%;
 	margin: -137px 0 0 -141px;
 	background: transparent url(nnn.jpg) no-repeat;
 	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
@@ -104,7 +104,7 @@ font-family: 'Fjalla One', sans-serif;
 	-ms-animation: fadeInBack 3.6s linear 14s backwards;
 	animation: fadeInBack 3.6s linear 14s backwards;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	filter: alpha(opacity=30);
+	filter: alpha(opacity=50);
 	opacity: 0.3;
 	-webkit-transform: scale(5);
 	-moz-transform: scale(5);
@@ -121,7 +121,8 @@ font-family: 'Fjalla One', sans-serif;
 	line-height: 100px;
 	width: 100px;
 	height: 100px;
-	background: #CCCCCC;
+background: transparent url(old_wall.jpg) no-repeat;
+	/*background: #CCCCCC;*/
 	color: #3f1616;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
@@ -138,7 +139,7 @@ font-family: 'Fjalla One', sans-serif;
 	transform: scale(1) rotate(0deg);
 }
 .sp-circle-link:hover {
-	background: #85373b;
+	background: #C4C4C4;
 	color: #fff;
 }
 /**/
