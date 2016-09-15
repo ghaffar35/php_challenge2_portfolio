@@ -131,7 +131,6 @@ color: #8C979B;
 .te-cover{
 	display: block;
 	width: 329px;
-	height: 425px;
 	top: 0px;
 	left: 0px;
 	
@@ -187,7 +186,7 @@ background-color: #8C979B;
 
 /*bouton jumbotron*/
 .btn{ 
-	background-color: #F2F2F2;
+	background-color: #E5A227;
 	border:none;
 	padding: 17px 30px 17px 30px;
 	text-align: center;
@@ -208,6 +207,10 @@ color: black;
 
 .mail{
 	color: #f05f40;
+}
+
+.Animjs{
+height: 700px;
 }
 
 .trait{
