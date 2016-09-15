@@ -1,6 +1,6 @@
 body {
-	background: url(red_texture.jpg) repeat top left;
-	font-family: 'BebasNeueRegular';
+	background: url(old_wall.jpg) repeat top left;
+font-family: 'Fjalla One', sans-serif;
 }
 
 .sp-container {
@@ -91,14 +91,14 @@ body {
 	-ms-animation-delay: 14s;
 	animation-delay: 14s;
 }
-.sp-globe {
+.sp-tof2{
 	position: absolute;
 	width: 282px;
 	height: 273px;
 	left: 50%;
 	top: 50%;
 	margin: -137px 0 0 -141px;
-	background: transparent url(front-end.png) no-repeat top left;
+	background: transparent url(nnn.jpg) no-repeat;
 	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
 	-moz-animation: fadeInBack 3.6s linear 14s backwards;
 	-ms-animation: fadeInBack 3.6s linear 14s backwards;
@@ -121,7 +121,7 @@ body {
 	line-height: 100px;
 	width: 100px;
 	height: 100px;
-	background: #fff;
+	background: #CCCCCC;
 	color: #3f1616;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
