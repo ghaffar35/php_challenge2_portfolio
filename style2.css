@@ -2,20 +2,12 @@
 	font-family: "Open Sans";
 }
 
-<<<<<<< HEAD
 body{
 margin: 0;
 padding: 0;
 }
 
-/*Barre de navigation*/
-#myNavbar a:hover
-{
-   background-color: #E5A227;
-   color: white;
-}
 
-=======
 #myNavbar a:hover
 {
    background-color: #E5A227 ;
@@ -23,28 +15,21 @@ padding: 0;
 }
 
 
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .collapse {
 	color: black;
 }
 
-<<<<<<< HEAD
-/* 1er block presentation rapide*/
-=======
 /*1ère partie*/
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .photo1 {
-	background-image: url(front-end.png);
+	background-image: url(descri.jpg);
+	opacity: 0.8;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 700px;
 	margin-top: 50px;
-<<<<<<< HEAD
-=======
 
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 }
 
 .texte1 {
@@ -52,21 +37,23 @@ padding: 0;
 	margin-top: 100px;
 	height: 700px;
 	text-align: center;
-	color: black;	
 }
 
-.trait1{
+.titre1{
+color: #E5A227;
+font-size: 50px;
+font-weight: bold;
+margin-top: 140px;
+}
+
+/*.trait1{
 	height: 5px;
 	width: 80px;
-	background-color: #0a73b8;
+	background-color: black;
 	border :none;
-}
+}*/
 
-<<<<<<< HEAD
-h2{
-=======
 h1{
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 	font-weight: bold;
 }
 
@@ -78,58 +65,46 @@ p{
 .buttonO{
 	background-color: #E5A227;
 	color: white;
-	margin-top: 350px !important;
+	margin-top: 250px !important;
 	border:none;
 	border-radius:25px;
 	width:160px;
 }
 
-<<<<<<< HEAD
-/*Bloc compétences*/
-=======
 	/*body{
 margin: 0;
 padding: 0;
 }*/
 
-body{
-margin: 0;
-padding: 0;
-}
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 
 #competences{
 padding-top: 20px;
 padding-bottom: 50px;	
-background-color:#F3F3F3;
+background-color:#FEFEFE;
 }
 
 .comp{
 margin-bottom: 50px;	
-<<<<<<< HEAD
-=======
 	
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
+}
+
+h2{
+color: #E5A227;
+font-style: bold;
+font-size: 40px;
+}
+
+.cv{
+margin-bottom: 30px;
 }
 
 h3{
 margin-top: 0px;		
 }
 
-<<<<<<< HEAD
-
-.trait2{
-	height: 5px;
-	width: 80px;
-	background-color: #0a73b8;
-	border :none;
-	margin-top: -10px;
-}
-=======
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 /*animation bounce*/
 #competences i {
-color: #f05f40;	
+color: #8C979B;	
 	-webkit-animation-name: bounceIn; 
     -webkit-animation-duration: 5s; 
     animation-name: bounceIn;
@@ -138,12 +113,12 @@ color: #f05f40;
 
 @-webkit-keyframes bounceIn {
     from {color: black;}
-    to {color: #f05f40;}
+    to {color: #8C979B;}
 }
 
 @keyframes bounceIn {
     from {color:black;}
-    to {color: #f05f40;}
+    to {color: #8C979B;}
 }
 
 /*Animation partie projet*/
@@ -152,11 +127,6 @@ color: #f05f40;
 .te-perspective{ 
 	-webkit-perspective: 1000;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .te-transition,
 .te-cover{
 	display: block;
@@ -164,13 +134,8 @@ color: #f05f40;
 	height: 425px;
 	top: 0px;
 	left: 0px;
-<<<<<<< HEAD
-}
-
-=======
 	
 }
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .te-transition,
 .te-cover.te-hide,
 .te-images{ display: none; }
@@ -181,10 +146,6 @@ color: #f05f40;
 	width: 100%;
 	height: 100%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .te-front{ z-index: 2; }
 .te-back{
 	z-index: 1;
@@ -195,24 +156,12 @@ color: #f05f40;
 .te-rotation4.te-show .te-back{
 	-webkit-transform-origin: 0% 50%;
 }
-<<<<<<< HEAD
-
-.te-rotation4.te-show .te-front{
-	-webkit-animation: rotationFront4 0.8s linear;
-}
-
-.te-rotation4.te-show .te-back {
-	-webkit-animation: rotationBack4 0.8s ease-in-out;
-}
-
-=======
 .te-rotation4.te-show .te-front{
 	-webkit-animation: rotationFront4 0.8s linear;
 }
 .te-rotation4.te-show .te-back {
 	-webkit-animation: rotationBack4 0.8s ease-in-out;
 }
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 @-webkit-keyframes rotationFront4{
 	0% { -webkit-transform: rotate3d(0,1,0,0); opacity: 1; -webkit-animation-timing-function: ease-in;}
 	30% { -webkit-transform: rotate3d(0,1,0,-90deg); opacity: 0.5; -webkit-animation-timing-function: ease-out;}
@@ -229,23 +178,13 @@ color: #f05f40;
 
 /*Partie CV*/
 
-.jumbotron{
-background-color: #FFFFFF;
-width: 100%;		
+.partiecv{
+
+width: 100%;
+background-color: #8C979B;
+
 }
 
-<<<<<<< HEAD
-/*.button1{
-	background-color: #E5A227;
-	color: white;
-	margin-top: 150px ;
-	border:none;
-	border-radius:25px;
-	width:160px;
-}*/
-
-/*contact*/
-=======
 /*bouton jumbotron*/
 .btn{ 
 	background-color: #F2F2F2;
@@ -267,13 +206,10 @@ width: 100%;
 color: black;	
 }
 
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
 .mail{
 	color: #f05f40;
 }
 
-<<<<<<< HEAD
-=======
 .trait{
     width: 60px;
     height: 4px;
@@ -282,8 +218,8 @@ color: black;
     margin-bottom: 40px;
 }
 
->>>>>>> 06e73e4b4b154da5cdd6774bb0221616f1e5e0d9
-.contact {
+footer {
+	display: block;
 margin-top: 200px!important;	
 }
 
