@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mes projets front-end</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    </head>
+    <body>
+        <div class="container">
+           
+			<section class="ib-container" id="ib-container">
+
+						<img src="maquette1.png"/>
+						<img src="maquette1.png"/>
+						<img src="maquette1.png"/>
+						<img src="maquette1.png"/>
+				
+			</section>
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var $container	= $('#ib-container'),
+					$img	= $container.children('img'),
+					timeout;
+				
+				$img.on( 'mouseenter', function( event ) {
+						
+					var $img	= $(this);
+					clearTimeout( timeout );
+					timeout = setTimeout( function() {
+						
+						if( $img.hasClass('active') ) return false;
+						
+						$img.not( $img.removeClass('blur').addClass('active') )
+								 .removeClass('active')
+								 .addClass('blur');
+						
+					}, 45 );
+					
+				});
+				
+				$container.on( 'mouseleave', function( event ) {
+					
+					clearTimeout( timeout );
+					$img.removeClass('active blur');
+					
+				});
+			
+			});
+		</script>
+    </body>
+</html>
