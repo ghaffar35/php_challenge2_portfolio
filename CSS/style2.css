@@ -1,0 +1,186 @@
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.page{
+padding: 0;
+}
+
+
+#myNavbar a:hover
+{
+   background-color: #E5A227 ;
+   color: white;
+}
+
+
+.collapse {
+	color: black;
+}
+
+/*1ère partie*/
+.photo1 {
+	background-image: url(image/projet-dev-web.jpg);
+	opacity: 0.8;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin-top: 50px;
+
+}
+
+.texte1 {
+	margin :0 auto;
+	margin-top: 100px;
+	height: 700px;
+	text-align: center;
+}
+
+.titre1{
+color: #E5A227;
+font-size: 50px;
+font-weight: bold;
+margin-top: 140px;
+}
+
+/*.trait1{
+	height: 5px;
+	width: 80px;
+	background-color: black;
+	border :none;
+}*/
+
+h1{
+	font-weight: bold;
+}
+
+p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family:"Merriweather";
+}
+.buttonO{
+	background-color: #E5A227;
+	color: white;
+	margin-top: 250px !important;
+	border:none;
+	border-radius:25px;
+	width:160px;
+}
+
+	/*body{
+margin: 0;
+padding: 0;
+}*/
+
+
+#competences{
+padding-top: 20px;
+padding-bottom: 50px;	
+background-color:#DCDCDC;
+}
+
+.comp{
+margin-bottom: 50px;	
+	
+}
+
+h2{
+
+color: #E5A227;
+font-style: bold;
+font-size: 40px;
+}
+
+.cv{
+margin-bottom: 30px;
+}
+
+h3{
+color : #E5A227;
+margin-top: 0px;		
+}
+
+small{
+color : #696969;
+
+}
+
+/*animation bounce*/
+i {
+color: #696969;	
+	-webkit-animation-name: bounceIn; 
+    -webkit-animation-duration: 5s; 
+    animation-name: bounceIn;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes bounceIn {
+    from {color: black;}
+    to {color: #696969;}
+}
+
+@keyframes bounceIn {
+    from {color:black;}
+    to {color: #696969;}
+}
+
+
+
+
+/*Partie CV*/
+
+.partiecv{
+width: 100%;
+background-color:#F5F5F5;
+}
+
+.cursus{
+margin-bottom: 25px;
+}
+
+
+.photo2 {
+	background-image: url(image/descri.jpg);
+	opacity: 0.8;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+}
+
+.titre2 {
+font-family: 'Permanent Marker', cursive;
+color: #E5A227;
+font-size: 50px;
+font-weight: bold;
+margin-top: 140px;
+}
+
+/*bouton*/
+
+.button{
+	background-color: #E5A227;
+	color: white;
+	margin-top: 250px !important;
+	border:none;
+	border-radius:25px;
+	width:160px;
+}
+
+.mail{
+	color: #f05f40;
+}
+
+
+footer {
+	display: block;
+	background-color:#DCDCDC;
+}
+
